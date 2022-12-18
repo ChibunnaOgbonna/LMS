@@ -8,7 +8,7 @@ class Student extends User{
         return {...this.student}
     }
     setStudent(name, email, track){
-        this.student = {name, email, track,...this.getUser()}
+        this.student = {name, email, track, ...this.getUser()}
     }
 
     addCourse(course) {
